@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.email       = ''
   s.files       = `git ls-files`.split("\n").reject {|file| file =~ /aws-flow-core/}
   s.require_paths << "lib/aws/"
-  s.required_ruby_version = ">= 1.9.1"
+  s.required_ruby_version = ">= 2.3.0"
   s.add_dependency "aws-sdk-v1", "~> 1", ">= 1.60.2"
   s.add_dependency "lru_redux", "~> 0", ">= 0.8.1"
   s.add_dependency "bugsnag"
